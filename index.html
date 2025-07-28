@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rawâa M'chaâbat | Développeuse Full Stack</title>
+    <meta name="description" content="Portfolio professionnel de Rawâa M'chaâbat, développeuse web full stack passionnée par la création d'expériences digitales innovantes.">
+    
+    <!-- Meta tags SEO -->
+    <meta property="og:title" content="Rawâa M'chaâbat | Développeuse Full Stack">
+    <meta property="og:description" content="Portfolio professionnel de Rawâa M'chaâbat, développeuse web full stack">
+    <meta property="og:image" content="https://example.com/social-preview.jpg">
+    <meta property="og:url" content="https://example.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="index.css">
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon_logocv.ico" type="image/x-icon">
+    
+<style></style>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Barre de progression -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="logocv.png" alt="Logo Rawâa M'chaâbat" loading="lazy">
+            </a>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+          <ul class="nav-links">
+    <li><a href="#home" class="active" id="nav-home">Accueil</a></li>
+    <li><a href="#about" id="nav-about">À propos</a></li>
+    <li><a href="#education" id="nav-education">Éducation</a></li>
+    <li><a href="#skills" id="nav-skills">Compétences</a></li>
+    <li><a href="#certifications" id="nav-certifications">Certifications</a></li>
+    <li><a href="#work" id="nav-work">Projets</a></li>
+    <li><a href="#contact" id="nav-contact">Contact</a></li>
+    <li class="theme-toggle">
+       
+    </li>
+</ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section - Version améliorée -->
+<section id="home" class="hero" style="position: relative; overflow: hidden;">
+    <!-- Animation de fond -->
+    <div class="hero-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;">
+        <div style="position: absolute; top: -50%; right: -50%; width: 100%; height: 200%; background: radial-gradient(circle, rgba(37,99,235,0.1) 0%, rgba(255,255,255,0) 70%);"></div>
+        <div style="position: absolute; bottom: -30%; left: -30%; width: 80%; height: 80%; background: radial-gradient(circle, rgba(16,185,129,0.1) 0%, rgba(255,255,255,0) 70%);"></div>
+    </div>
+
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="hero-content" style="position: relative;">
+            <!-- Badge "Disponible pour missions" -->
+            <div style="background: rgba(16,185,129,0.1); color: var(--secondary); padding: 8px 16px; border-radius: 20px; display: inline-flex; align-items: center; margin-bottom: 20px; font-size: 0.9rem; font-weight: 500;">
+                <div style="width: 8px; height: 8px; background: var(--secondary); border-radius: 50%; margin-right: 8px; animation: pulse 1.5s infinite;"></div>
+                Disponible pour missions freelance
+            </div>
+            
+            <h4 class="subtitle" style="color: var(--primary); font-weight: 600; letter-spacing: 1px;">Bonjour, je suis</h4>
+            
+            <!-- Nom avec effet gradient -->
+            <h1 class="title" style="background: linear-gradient(90deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 10px 0; font-size: clamp(2.5rem, 8vw, 4rem); line-height: 1.1;">
+                Rawâa M'chaâbat
+            </h1>
+            
+            <h2 class="job-title" style="font-size: clamp(1.2rem, 4vw, 1.8rem); margin-bottom: 25px; color: var(--dark-light);">
+                <span id="typing-text" style="border-right: 2px solid var(--primary); animation: blink 0.7s infinite;"></span>
+            </h2>
+            
+            <p class="description" style="max-width: 600px; font-size: 1.1rem; line-height: 1.7; margin-bottom: 30px;">
+               Étudiante en Developpement digital à l'OFPPT, passionnée par le développement web front-end. Je combine mes apprentissages académiques avec une veille active sur les technologies modernes pour créer des interfaces utilisateur performantes et esthétiques
+            </p>
+            
+            <div class="cta-buttons" style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#work" class="btn primary" style="display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-eye"></i> Voir mes projets
+                </a>
+                <a href="#contact" class="btn secondary" style="display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-paper-plane"></i> Me contacter
+                </a>
+                <a href="rawaa_cv.pdf" class="btn secondary" download style="display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-download"></i> Télécharger CV
+                </a>
+            </div>
+            
+            <div class="social-links" style="margin-top: 40px;">
+                <p style="color: var(--gray); margin-bottom: 15px; font-size: 0.9rem;">SUIVEZ-MOI</p>
+                <div style="display: flex; gap: 15px;">
+                    <a href="https://github.com/rawaa-mch" target="_blank" rel="noopener noreferrer" aria-label="GitHub" 
+                       style="width: 45px; height: 45px; border-radius: 50%; background: var(--gray-light); color: var(--dark); display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/raw%C3%A2a-m-chaabat-4705a2371/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" 
+                       style="width: 45px; height: 45px; border-radius: 50%; background: var(--gray-light); color: var(--dark); display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rawaa_mch/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" 
+                       style="width: 45px; height: 45px; border-radius: 50%; background: var(--gray-light); color: var(--dark); display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-image" style="position: relative;">
+            <div class="image-wrapper" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.15); border: none;">
+                <img src="image.png" alt="Rawâa M'chaâbat" loading="lazy" style="transition: transform 0.5s ease;">
+                
+                <!-- Badge de compétences flottant -->
+                <div style="position: absolute; bottom: 30px; left: -20px; background: white; padding: 10px 15px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); display: flex; align-items: center; z-index: 2; animation: float 3s ease-in-out infinite;">
+                    <div style="width: 40px; height: 40px; background: var(--primary-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; color: white;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--dark);">Full Stack</div>
+                        <div style="font-size: 0.8rem; color: var(--gray);">Développeuse</div>
+                    </div>
+                </div>
+                
+                <!-- Autre badge flottant -->
+                <div style="position: absolute; top: 30px; right: -20px; background: white; padding: 10px 15px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); display: flex; align-items: center; z-index: 2; animation: float 3s ease-in-out infinite 1s;">
+                    <div style="width: 40px; height: 40px; background: var(--secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; color: white;">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--dark);">5+</div>
+                        <div style="font-size: 0.8rem; color: var(--gray);">Certifications</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Élément décoratif -->
+            <div style="position: absolute; top: -30px; right: -30px; width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(45deg, var(--primary-light), transparent); z-index: -1; opacity: 0.3;"></div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(248,250,252,0.9) 0%, rgba(248,250,252,0.6) 100%);
+        }
+        
+        .image-wrapper:hover img {
+            transform: scale(1.05);
+        }
+        
+        .social-links a:hover {
+            background: var(--primary) !important;
+            color: white !important;
+            transform: translateY(-3px);
+        }
+    </style>
+    
+    <script>
+        // Animation de texte typing
+        const typingText = document.getElementById('typing-text');
+        const professions = ["Développeuse Full Stack", "Passionnée de Tech"];
+        let currentProfession = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        
+        function typeWriter() {
+            const currentText = professions[currentProfession];
+            
+            if (isDeleting) {
+                typingText.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            if (!isDeleting && charIndex === currentText.length) {
+                isDeleting = true;
+                setTimeout(typeWriter, 1500);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                currentProfession = (currentProfession + 1) % professions.length;
+                setTimeout(typeWriter, 500);
+            } else {
+                setTimeout(typeWriter, isDeleting ? 50 : 100);
+            }
+        }
+        
+        // Démarrer l'animation après le chargement
+        window.addEventListener('load', () => {
+            setTimeout(typeWriter, 1000);
+        });
+    </script>
+</section>
+
+    <!-- About Section -->
+    <!-- About Section - Version modifiée avec blocs de services -->
+<!-- About Section - Design amélioré -->
+<section id="about" class="about" style="background-color: var(--light); position: relative; overflow: hidden;">
+    <!-- Effet décoratif de fond -->
+    <div style="position: absolute; top: -50%; right: -50%; width: 100%; height: 200%; background: radial-gradient(circle, rgba(37,99,235,0.05) 0%, rgba(255,255,255,0) 70%); z-index: 0;"></div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="section-header">
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem;">À propos de moi</h2>
+            <p class="section-subtitle" style="color: var(--primary); font-weight: 500; letter-spacing: 2px; text-transform: uppercase;">Qui suis-je ?</p>
+        </div>
+        
+        <div class="about-content" style="display: flex; flex-wrap: wrap; gap: 3rem; align-items: center;">
+            <!-- Image avec effet -->
+            <div class="about-image" style="flex: 1; min-width: 300px; position: relative;">
+                <div style="width: 100%; max-width: 400px; margin: 0 auto; position: relative;">
+                    <img src="3a61d803b23fc77c5df360a8c0a2fe8a.jpg" alt="Rawâa M'chaâbat" 
+                         style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2); border: 5px solid white;">
+                    
+                    <!-- Badge d'expérience flottant -->
+                    <div style="position: absolute; bottom: -20px; left: -20px; background: white; padding: 15px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: flex; align-items: center; z-index: 2; animation: float 3s ease-in-out infinite;">
+                        <div style="width: 50px; height: 50px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; color: white; font-size: 1.5rem;">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div>
+                            <div style="font-weight: 700; color: var(--dark);">Étudiante en</div>
+                            <div style="font-size: 0.9rem; color: var(--gray);">Développement Digital</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contenu texte -->
+            <div class="about-text" style="flex: 1; min-width: 300px;">
+                <h3 style="font-size: 1.75rem; margin-bottom: 1.5rem; color: var(--primary); position: relative; display: inline-block;">
+                    Passionnée par le développement web et l'innovation
+                    <span style="position: absolute; bottom: -8px; left: 0; width: 50%; height: 3px; background: linear-gradient(90deg, var(--primary), var(--secondary));"></span>
+                </h3>
+                
+                <div style="background: white; padding: 1.5rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); margin-bottom: 2rem;">
+                    <p style="margin-bottom: 1rem; line-height: 1.7; color: var(--dark-light);">
+                       Je m'appelle Rawâa M'chaâbat, j'ai 19 ans et je suis actuellement étudiante en 1ère année à l'OFPPT, où je me forme aux métiers du développement digital. Titulaire d'un baccalauréat en Sciences PC (option française), je me passionne pour la création de sites web et l'univers du numérique.
+                    </p>
+                    <p style="line-height: 1.7; color: var(--dark-light);">
+                       Autodidacte et curieuse, je consacre mon temps libre à approfondir mes connaissances en programmation et à réaliser des projets personnels. Mon objectif est de devenir une développeuse web polyvalente, capable de créer des solutions à la fois esthétiques et fonctionnelles.
+                    </p>
+                </div>
+                
+                <!-- Statistiques -->
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+                    <div style="flex: 1; min-width: 120px; background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem;">5+</div>
+                        <div style="font-size: 0.9rem; color: var(--gray);">Projets réalisés</div>
+                    </div>
+                    <div style="flex: 1; min-width: 120px; background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 0.5rem;">5</div>
+                        <div style="font-size: 0.9rem; color: var(--gray);">Certifications</div>
+                    </div>
+                </div>
+                
+                <!-- Boutons d'action -->
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="rawaa_cv.pdf" class="btn primary" download style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-download"></i> Télécharger CV
+                    </a>
+                    <a href="#contact" class="btn secondary" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fas fa-paper-plane"></i> Me contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+    
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .about-image img {
+            transition: transform 0.5s ease;
+        }
+        
+        .about-image:hover img {
+            transform: scale(1.03);
+        }
+        
+        .about-text p {
+            position: relative;
+        }
+        
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+    </style>
+</section>
+<!-- Education Section - Card Grid Design -->
+<section id="education" class="education" style="background-color: var(--light); padding: 5rem 0; position: relative;">
+    <!-- Effet de fond décoratif -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.03) 0%, transparent 50%); z-index: 0;"></div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem; position: relative; display: inline-block;">
+                Mon Parcours Académique
+                <span style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary)); border-radius: 2px;"></span>
+            </h2>
+            <p class="section-subtitle" style="color: var(--gray); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Mes formations et certifications qui ont forgé mes compétences</p>
+        </div>
+
+        <div class="education-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+            <!-- Carte OFPPT -->
+            <div class="education-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; position: relative;">
+                <!-- Bandeau coloré -->
+                <div style="height: 8px; background: linear-gradient(90deg, var(--primary), var(--secondary));"></div>
+                
+                <div style="padding: 2rem;">
+                    <!-- Logo et titre -->
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(16, 185, 129, 0.1)); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-laptop-code" style="font-size: 1.5rem; color: var(--primary);"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Développement Digital</h3>
+                            <p style="color: var(--gray); margin: 0; font-size: 0.9rem;">OFPPT - ISTA NTIC SM</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Détails -->
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <i class="far fa-calendar-alt" style="color: var(--gray);"></i>
+                            <span style="font-size: 0.9rem; color: var(--dark);">2024 - Présent</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--gray);"></i>
+                            <span style="font-size: 0.9rem; color: var(--dark);">Casablanca, Maroc</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Description -->
+                    <p style="color: var(--dark-light); line-height: 1.6; margin-bottom: 1.5rem;">
+                        Formation intensive en développement web full stack avec réalisation de projets concrets et apprentissage des méthodologies agiles.
+                    </p>
+                    
+                    <!-- Compétences -->
+                    <div>
+                        <h4 style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-cog"></i> Technologies maîtrisées
+                        </h4>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                            <span style="background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;">HTML/CSS</span>
+                            <span style="background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;">JavaScript</span>
+                            <span style="background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;">PHP</span>
+                            <span style="background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;">POO</span>
+                            <span style="background: rgba(16, 185, 129, 0.1); color: var(--secondary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 500;">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bouton en savoir plus -->
+                <div style="padding: 1rem 2rem; border-top: 1px solid var(--gray-light); text-align: center;">
+                    <a href="#certifications" style="color: var(--primary); font-weight: 500; font-size: 0.875rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        Voir les certifications <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Carte Lycée -->
+            <div class="education-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; position: relative;">
+                <!-- Bandeau coloré -->
+                <div style="height: 8px; background: linear-gradient(90deg, #6b7280, #9ca3af);"></div>
+                
+                <div style="padding: 2rem;">
+                    <!-- Logo et titre -->
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div style="width: 60px; height: 60px; background: rgba(107, 114, 128, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-graduation-cap" style="font-size: 1.5rem; color: #6b7280;"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Baccalauréat Sciences PC</h3>
+                            <p style="color: var(--gray); margin: 0; font-size: 0.9rem;">Lycée Abdelkrim Al Khattabi</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Détails -->
+                    <div style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <i class="far fa-calendar-alt" style="color: var(--gray);"></i>
+                            <span style="font-size: 0.9rem; color: var(--dark);">2021 - 2024</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--gray);"></i>
+                            <span style="font-size: 0.9rem; color: var(--dark);">Casablanca, Maroc</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+                            <i class="fas fa-star" style="color: var(--secondary);"></i>
+                            <span style="font-size: 0.9rem; color: var(--dark);">Mention Assez Bien</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Description -->
+                    <p style="color: var(--dark-light); line-height: 1.6; margin-bottom: 1.5rem;">
+                        Baccalauréat en Sciences Physiques option française, avec initiation à l'algorithmique et développement de compétences analytiques.
+                    </p>
+                    
+                    <!-- Points forts -->
+                    <div>
+                        <h4 style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fas fa-check-circle"></i> Points forts
+                        </h4>
+                        <ul style="list-style-type: none; padding-left: 0; margin: 0;">
+                            <li style="padding: 0.25rem 0; font-size: 0.875rem; color: var(--dark-light); display: flex; align-items: flex-start; gap: 0.5rem;">
+                                <i class="fas fa-check" style="color: var(--secondary); font-size: 0.7rem; margin-top: 0.3rem;"></i>
+                                <span>Rigueur scientifique et esprit d'analyse</span>
+                            </li>
+                            <li style="padding: 0.25rem 0; font-size: 0.875rem; color: var(--dark-light); display: flex; align-items: flex-start; gap: 0.5rem;">
+                                <i class="fas fa-check" style="color: var(--secondary); font-size: 0.7rem; margin-top: 0.3rem;"></i>
+                                <span>Bases solides en mathématiques et physique</span>
+                            </li>
+                            <li style="padding: 0.25rem 0; font-size: 0.875rem; color: var(--dark-light); display: flex; align-items: flex-start; gap: 0.5rem;">
+                                <i class="fas fa-check" style="color: var(--secondary); font-size: 0.7rem; margin-top: 0.3rem;"></i>
+                                <span>Initiation à la programmation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .education-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+        
+       
+        
+        /* Animation d'apparition */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .education-card {
+            animation: fadeIn 0.6s ease forwards;
+        }
+        
+        .education-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-header {
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</section>
+
+    <!-- Skills Section -->
+ <!-- Skills Section with Advanced Animations -->
+<section id="skills" class="skills" style="padding: 5rem 0; position: relative; overflow: hidden;">
+    <!-- Animated Background Elements -->
+    <div class="skill-bg-elements" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; overflow: hidden;">
+        <div style="position: absolute; top: 20%; left: 10%; width: 50px; height: 50px; background: rgba(37, 99, 235, 0.05); border-radius: 50%; animation: float 8s ease-in-out infinite;"></div>
+        <div style="position: absolute; top: 60%; right: 15%; width: 30px; height: 30px; background: rgba(16, 185, 129, 0.05); border-radius: 50%; animation: float 6s ease-in-out infinite 2s;"></div>
+        <div style="position: absolute; bottom: 10%; left: 25%; width: 40px; height: 40px; background: rgba(139, 92, 246, 0.05); border-radius: 50%; animation: float 7s ease-in-out infinite 1s;"></div>
+    </div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem; position: relative; display: inline-block;">
+                <span class="title-text" style="display: inline-block; animation: fadeInUp 0.8s ease-out;">Mes compétences</span>
+                <span style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary)); border-radius: 2px; animation: scaleIn 0.8s ease-out;"></span>
+            </h2>
+            <p class="section-subtitle" style="color: var(--gray); font-size: 1.1rem; animation: fadeIn 1s ease-out 0.3s both;">Ce que je maîtrise</p>
+        </div>
+
+        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; perspective: 1000px;">
+            <!-- Frontend Card -->
+            <div class="skill-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; animation: cardEntrance 0.6s ease-out 0.2s both; transform-style: preserve-3d;">
+                <div class="skill-card-header" style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(37, 99, 235, 0.05)); padding: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 50px; height: 50px; background: rgba(37, 99, 235, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; animation: pulse 2s infinite alternate;">
+                        <i class="fas fa-laptop-code" style="font-size: 1.5rem; color: var(--primary);"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Frontend</h3>
+                </div>
+                <div class="skill-card-body" style="padding: 1.5rem;">
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+                        <!-- HTML -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.4s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">HTML</span>
+                                <span class="skill-percent" style="color: var(--primary); font-weight: 600;" data-target="95">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(37, 99, 235, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, var(--primary), #1d4ed8); border-radius: 4px;" data-width="95"></div>
+                            </div>
+                        </li>
+                        <!-- CSS -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.5s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">CSS</span>
+                                <span class="skill-percent" style="color: var(--primary); font-weight: 600;" data-target="90">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(37, 99, 235, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, var(--primary), #1d4ed8); border-radius: 4px;" data-width="90"></div>
+                            </div>
+                        </li>
+                        <!-- JavaScript -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.6s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">JavaScript</span>
+                                <span class="skill-percent" style="color: var(--primary); font-weight: 600;" data-target="80">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(37, 99, 235, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, var(--primary), #1d4ed8); border-radius: 4px;" data-width="80"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Backend Card -->
+            <div class="skill-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; animation: cardEntrance 0.6s ease-out 0.3s both; transform-style: preserve-3d;">
+                <div class="skill-card-header" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05)); padding: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 50px; height: 50px; background: rgba(16, 185, 129, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; animation: pulse 2s infinite alternate 0.5s;">
+                        <i class="fas fa-server" style="font-size: 1.5rem; color: var(--secondary);"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Backend</h3>
+                </div>
+                <div class="skill-card-body" style="padding: 1.5rem;">
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+                        <!-- PHP -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.7s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">PHP</span>
+                                <span class="skill-percent" style="color: var(--secondary); font-weight: 600;" data-target="75">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(16, 185, 129, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, var(--secondary), #059669); border-radius: 4px;" data-width="75"></div>
+                            </div>
+                        </li>
+                        <!-- Python -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.8s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">Python</span>
+                                <span class="skill-percent" style="color: var(--secondary); font-weight: 600;" data-target="70">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(16, 185, 129, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, var(--secondary), #059669); border-radius: 4px;" data-width="70"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Autres Compétences Card -->
+            <div class="skill-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; animation: cardEntrance 0.6s ease-out 0.4s both; transform-style: preserve-3d;">
+                <div class="skill-card-header" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(139, 92, 246, 0.05)); padding: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 50px; height: 50px; background: rgba(139, 92, 246, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; animation: pulse 2s infinite alternate 1s;">
+                        <i class="fas fa-tools" style="font-size: 1.5rem; color: #8b5cf6;"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Autres</h3>
+                </div>
+                <div class="skill-card-body" style="padding: 1.5rem;">
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+                        <!-- MySQL -->
+                        <li style="animation: slideInRight 0.5s ease-out 0.9s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">MySQL</span>
+                                <span class="skill-percent" style="color: #8b5cf6; font-weight: 600;" data-target="80">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(139, 92, 246, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #8b5cf6, #7c3aed); border-radius: 4px;" data-width="80"></div>
+                            </div>
+                        </li>
+                        <!-- XAMPP -->
+                        <li style="animation: slideInRight 0.5s ease-out 1s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">XAMPP</span>
+                                <span class="skill-percent" style="color: #8b5cf6; font-weight: 600;" data-target="80">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(139, 92, 246, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #8b5cf6, #7c3aed); border-radius: 4px;" data-width="80"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bureautique Card -->
+            <div class="skill-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; animation: cardEntrance 0.6s ease-out 0.5s both; transform-style: preserve-3d;">
+                <div class="skill-card-header" style="background: linear-gradient(135deg, rgba(234, 179, 8, 0.1), rgba(234, 179, 8, 0.05)); padding: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 50px; height: 50px; background: rgba(234, 179, 8, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; animation: pulse 2s infinite alternate 1.5s;">
+                        <i class="fas fa-file-alt" style="font-size: 1.5rem; color: #eab308;"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Bureautique</h3>
+                </div>
+                <div class="skill-card-body" style="padding: 1.5rem;">
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+                        <!-- WORD -->
+                        <li style="animation: slideInRight 0.5s ease-out 1.1s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">WORD</span>
+                                <span class="skill-percent" style="color: #eab308; font-weight: 600;" data-target="90">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(234, 179, 8, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #eab308, #ca8a04); border-radius: 4px;" data-width="90"></div>
+                            </div>
+                        </li>
+                        <!-- EXCEL -->
+                        <li style="animation: slideInRight 0.5s ease-out 1.2s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">EXCEL</span>
+                                <span class="skill-percent" style="color: #eab308; font-weight: 600;" data-target="90">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(234, 179, 8, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #eab308, #ca8a04); border-radius: 4px;" data-width="90"></div>
+                            </div>
+                        </li>
+                        <!-- PowerPoint -->
+                        <li style="animation: slideInRight 0.5s ease-out 1.3s both;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 500; color: var(--dark);">PowerPoint</span>
+                                <span class="skill-percent" style="color: #eab308; font-weight: 600;" data-target="90">0%</span>
+                            </div>
+                            <div style="height: 8px; background: rgba(234, 179, 8, 0.1); border-radius: 4px; overflow: hidden;">
+                                <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #eab308, #ca8a04); border-radius: 4px;" data-width="90"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Ajoutez cette carte dans votre section skills-grid après les autres cartes -->
+
+<!-- Outils Dev & Git Card -->
+<div class="skill-card" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative; animation: cardEntrance 0.6s ease-out 0.6s both; transform-style: preserve-3d;">
+    <div class="skill-card-header" style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.05)); padding: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+        <div style="width: 50px; height: 50px; background: rgba(245, 158, 11, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; animation: pulse 2s infinite alternate 2s;">
+            <i class="fas fa-code-branch" style="font-size: 1.5rem; color: #f59e0b;"></i>
+        </div>
+        <h3 style="font-size: 1.25rem; margin: 0; color: var(--dark);">Outils Dev & Git</h3>
+    </div>
+    <div class="skill-card-body" style="padding: 1.5rem;">
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
+            <!-- Git & GitHub -->
+            <li style="animation: slideInRight 0.5s ease-out 1.4s both;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span style="font-weight: 500; color: var(--dark);"> GitHub</span>
+                    <span class="skill-percent" style="color: #f59e0b; font-weight: 600;" data-target="80">0%</span>
+                </div>
+                <div style="height: 8px; background: rgba(245, 158, 11, 0.1); border-radius: 4px; overflow: hidden;">
+                    <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #f59e0b, #d97706); border-radius: 4px;" data-width="80"></div>
+                </div>
+            </li>
+            <!-- VS Code -->
+            <li style="animation: slideInRight 0.5s ease-out 1.5s both;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span style="font-weight: 500; color: var(--dark);">VS Code</span>
+                    <span class="skill-percent" style="color: #f59e0b; font-weight: 600;" data-target="90">0%</span>
+                </div>
+                <div style="height: 8px; background: rgba(245, 158, 11, 0.1); border-radius: 4px; overflow: hidden;">
+                    <div class="skill-bar" style="height: 100%; width: 0; background: linear-gradient(90deg, #f59e0b, #d97706); border-radius: 4px;" data-width="90"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <style>
+        /* Keyframes pour les animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes scaleIn {
+            from { transform: translateX(-50%) scaleX(0); }
+            to { transform: translateX(-50%) scaleX(1); }
+        }
+        
+        @keyframes cardEntrance {
+            from {
+                opacity: 0;
+                transform: translateY(30px) rotateX(30deg);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) rotateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        /* Animation des barres de compétences */
+        .skill-bar {
+            transition: width 1.5s ease-out, background 0.3s;
+        }
+        
+        /* Effet de survol des cartes */
+        .skill-card:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1) !important;
+        }
+        
+        .skill-card:hover .skill-card-header {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(37, 99, 235, 0.1)) !important;
+        }
+        
+      
+    </style>
+    
+    <script>
+        // Animation des pourcentages et barres de compétences
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-bar');
+            const skillPercents = document.querySelectorAll('.skill-percent');
+            
+            skillBars.forEach(bar => {
+                const width = bar.getAttribute('data-width');
+                bar.style.width = width + '%';
+            });
+            
+            skillPercents.forEach(percent => {
+                const target = parseInt(percent.getAttribute('data-target'));
+                let current = 0;
+                const increment = target / 50; // Durée de l'animation
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    percent.textContent = Math.floor(current) + '%';
+                }, 20);
+            });
+        }
+        
+        // Démarrer les animations lorsque la section est visible
+        const skillsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateSkillBars();
+                    skillsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const skillsSection = document.getElementById('skills');
+            if (skillsSection) {
+                skillsObserver.observe(skillsSection);
+            }
+        });
+    </script>
+</section>
+<!-- Certifications Section -->
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Mes Certifications</h2>
+            <p class="section-subtitle">Mes acquis et formations certifiées</p>
+        </div>
+        
+        <div class="certifications-grid hidden-items">
+            <!-- Certification 1 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript Essentials</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Certification Cisco Networking Academy validant les compétences fondamentales en JavaScript.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Juin 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-javascript1.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 2 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Essentials 1</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Première partie de la certification Python couvrant les bases de la programmation Python.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Mai 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-python1.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 3 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Essentials 2</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Deuxième partie de la certification Python abordant des concepts plus avancés.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Mai 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-python2.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 4 -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Introduction à la Cybersécurité</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Certification couvrant les fondamentaux de la sécurité informatique et des bonnes pratiques.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Mai 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-cybersecurite.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 5 (cachée par défaut) -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fas fa-robot"></i>
+                    <h3>Introduction à l'IA Moderne</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Certification sur les concepts fondamentaux de l'Intelligence Artificielle et ses applications.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Mai 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-ai.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certification 6 (cachée par défaut) -->
+            <div class="certification-card">
+                <div class="certification-header">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Sécurité des Terminaux</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Certification spécialisée dans la sécurisation des appareils et terminaux connectés.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Juin 2025</span>
+                        <span><i class="fas fa-award"></i> Cisco</span>
+                        <a href="certificat-terminaux.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification 7 (cachée par défaut) -->
+            <div class="certification-card">
+                <div class="certification-header" style="background: linear-gradient(90deg, #0062FF, #054ADA);">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development Fundamentals</h3>
+                </div>
+                <div class="certification-body">
+                    <p>Certification IBM SkillsBuild couvrant les fondamentaux du développement web moderne.</p>
+                    <div class="certification-meta">
+                        <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+                        <span><i class="fas fa-award"></i> IBM SkillsBuild</span>
+                        <a href="IBMDesign20250721-33-w4xxxh.pdf" class="btn small" target="_blank">Voir le certificat</a>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Certification AI Chatbots -->
+<div class="certification-card">
+    <div class="certification-header">
+        <i class="fas fa-comments"></i>
+        <h3>AI Chatbots & Appointment Booking</h3>
+    </div>
+    <div class="certification-body">
+        <p>Formation sur la création de chatbots IA et systèmes de rendez-vous automatisés.</p>
+        <div class="certification-meta">
+            <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+            <span><i class="fas fa-award"></i> Udemy</span>
+            <a href="UC-3bce599a-654e-4702-bcb3-77aaf5fa56c9.pdf" class="btn small" target="_blank">Voir le certificat</a>
+        </div>
+    </div>
+</div>
+
+<!-- Certification Laravel -->
+<div class="certification-card">
+    <div class="certification-header">
+        <i class="fab fa-laravel"></i>
+        <h3>PHP avec Laravel: CMS Blog</h3>
+    </div>
+    <div class="certification-body">
+        <p>Construction d'un système de gestion de contenu avec Laravel et panel d'administration.</p>
+        <div class="certification-meta">
+            <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+            <span><i class="fas fa-award"></i> Udemy</span>
+            <a href="UC-378aa9d6-9a06-4349-85dc-42e90252eaac.pdf" class="btn small" target="_blank">Voir le certificat</a>
+        </div>
+    </div>
+</div>
+
+<!-- Certification Web Development -->
+<div class="certification-card">
+    <div class="certification-header">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Foundations of Web Development</h3>
+    </div>
+    <div class="certification-body">
+        <p>Formation complète sur CSS, Bootstrap, JavaScript et React pour le développement web.</p>
+        <div class="certification-meta">
+            <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+            <span><i class="fas fa-award"></i>Udemy</span>
+            <a href="UC-33653f6a-03b9-4327-ae43-d077dc8b4802.pdf" class="btn small" target="_blank">Voir le certificat</a>
+        </div>
+    </div>
+</div>
+
+<!-- Certification E-Commerce -->
+<div class="certification-card">
+    <div class="certification-header">
+        <i class="fas fa-shopping-cart"></i>
+        <h3>E-Commerce avec WordPress</h3>
+    </div>
+    <div class="certification-body">
+        <p>Création de boutiques e-commerce rentables avec WordPress et Woostify.</p>
+        <div class="certification-meta">
+            <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+            <span><i class="fas fa-award"></i> Udemy</span>
+            <a href="UC-895960fc-d665-4cdb-8af8-07987407c0ad.pdf" class="btn small" target="_blank">Voir le certificat</a>
+        </div>
+    </div>
+</div>
+
+<!-- Certification SQL -->
+<div class="certification-card">
+    <div class="certification-header">
+        <i class="fas fa-database"></i>
+        <h3>Microsoft SQL pour débutants</h3>
+    </div>
+    <div class="certification-body">
+        <p>Cours complet de A à Z sur Microsoft SQL Server pour les débutants.</p>
+        <div class="certification-meta">
+            <span><i class="fas fa-calendar-alt"></i> Juillet 2025</span>
+            <span><i class="fas fa-award"></i> Udemy</span>
+            <a href="UC-ac6608ea-b087-4f79-a956-6d9ea70cb2a3.pdf" class="btn small" target="_blank">Voir le certificat</a>
+        </div>
+    </div>
+</div>
+        </div>
+        <!-- ... autres certifications ... -->
+
+        
+        <button class="see-more-btn">Voir plus de certifications</button>
+    </div>
+</section>
+<script>
+   // Gestion du bouton "Voir plus" pour les certifications
+document.addEventListener('DOMContentLoaded', function() {
+    const seeMoreBtn = document.querySelector('.see-more-btn');
+    const certificationsGrid = document.querySelector('.certifications-grid');
+    const totalCertifications = document.querySelectorAll('.certification-card').length;
+    
+    // Nombre de certifications à afficher par défaut
+    const defaultVisibleDesktop = 4;
+    const defaultVisibleMobile = 2;
+    
+    // Vérifier si on est sur mobile
+    const isMobile = window.innerWidth <= 768;
+    const defaultVisible = isMobile ? defaultVisibleMobile : defaultVisibleDesktop;
+    
+    // Initialiser l'état
+    certificationsGrid.classList.add('hidden-items');
+    seeMoreBtn.textContent = `Voir plus de certifications (${totalCertifications - defaultVisible})`;
+    
+    seeMoreBtn.addEventListener('click', function() {
+        certificationsGrid.classList.toggle('hidden-items');
+        
+        if (certificationsGrid.classList.contains('hidden-items')) {
+            this.textContent = `Voir plus de certifications (${totalCertifications - defaultVisible})`;
+        } else {
+            this.textContent = 'Voir moins';
+            
+            // Animer les éléments qui apparaissent
+            const hiddenCards = document.querySelectorAll('.certifications-grid:not(.hidden-items) .certification-card');
+            hiddenCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+        }
+    });
+    
+    // Gérer le redimensionnement de la fenêtre
+    window.addEventListener('resize', function() {
+        const isNowMobile = window.innerWidth <= 768;
+        const newDefaultVisible = isNowMobile ? defaultVisibleMobile : defaultVisibleDesktop;
+        
+        if (isNowMobile !== isMobile) {
+            if (certificationsGrid.classList.contains('hidden-items')) {
+                seeMoreBtn.textContent = `Voir plus de certifications (${totalCertifications - newDefaultVisible})`;
+            } else {
+                seeMoreBtn.textContent = 'Voir moins';
+            }
+        }
+    });
+});
+</script>
+
+<style>
+    /* Animation pour l'affichage des cartes */
+.certification-card {
+    transition: all 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.certifications-grid.hidden-items .certification-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.certifications-grid.hidden-items .certification-card:nth-child(n+5) {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+    .certifications-grid.hidden-items .certification-card:nth-child(n+3) {
+        display: none;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+    /* Styles pour les nouvelles certifications */
+    .certification-card {
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .certification-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    
+    .certification-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg, var(--primary), var(--secondary));
+        transform: scaleX(0);
+        transition: transform 0.3s;
+    }
+    
+    .certification-card:hover::before {
+        transform: scaleX(1);
+    }
+    
+  
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .certifications-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+<!-- Work Section -->
+<!-- Work Section - Redesign Moderne -->
+<section id="work" class="work" style="background-color: var(--light); padding: 5rem 0; position: relative;">
+    <!-- Effet de fond décoratif -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.03) 0%, transparent 50%); z-index: 0;"></div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem; position: relative; display: inline-block;">
+                Mes Projets
+                <span style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary)); border-radius: 2px;"></span>
+            </h2>
+            <p class="section-subtitle" style="color: var(--gray); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Une sélection de mes réalisations récentes</p>
+        </div>
+
+        <!-- Filtres par catégorie -->
+      
+        <!-- Grille de projets -->
+        <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem;">
+            <!-- Projet 1 - Wedding Dress -->
+            <div class="project-card" data-category="web" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-badge" style="position: absolute; top: 1rem; right: 1rem; background: var(--secondary); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 500; z-index: 2;">Nouveau</div>
+                
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="h.jpg" alt="Projet Wedding Dress" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Wedding Dress</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">HTML/CSS</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Wedding Dress</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Plateforme e-commerce pour robes de mariée avec fonctionnalités avancées.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                        <a href="https://github.com/rawaa-mch/wedding-dress" class="btn small" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://wedding-dress-seven.vercel.app/" class="btn small secondary" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-eye"></i> Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 2 - Nike Store -->
+            <div class="project-card" data-category="web" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                        <source src="Enregistrement 2025-06-28 183914.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Nike Store</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">JavaScript</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Nike Store</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Boutique en ligne pour produits Nike avec système de paiement sécurisé.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                        <a href="https://github.com/rawaa-mch/nike-store" class="btn small" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="Enregistrement 2025-06-28 183914.mp4" class="btn small secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-play"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 3 - Portfolio -->
+            <div class="project-card" data-category="web" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="Capture d'écran 2025-06-21 192448.png" alt="Portfolio" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Portfolio</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">HTML/CSS</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Portfolio</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Mon portfolio personnel mettant en avant mes compétences et projets.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                      
+                        <a href="index.html" class="btn small secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-eye"></i> Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 4 - Reconnaissance Faciale -->
+            <div class="project-card" data-category="mobile" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="WhatsApp Image 2025-07-10 à 21.46.47_044a2630.jpg" alt="Reconnaissance Faciale" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Reconnaissance Faciale</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Python</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Reconnaissance Faciale</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Application de reconnaissance faciale utilisant Python et OpenCV.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                      
+                        <a href="https://github.com/rawaa-mch/reconnaissance_faciale/blob/main/README.md" class="btn small secondary" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-book"></i> Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 5 - Jeu Jumpy -->
+            <div class="project-card" data-category="design" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="jeu.jpg" alt="Jumpy Game" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Jumpy Game</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Python</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Pygame</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Jumpy Game</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Jeu de plateforme 2D développé en Python avec Pygame.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                        <a href="https://github.com/rawaa-mch/jumpy-game" class="btn small" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="jeu.mp4" class="btn small secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-play"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 6 - Calculatrice Python -->
+            <div class="project-card" data-category="design" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="c.jpg" alt="Calculatrice Python" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Calculatrice Python</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Python</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Tkinter</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Calculatrice Python</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Calculatrice simple développée avec Tkinter en Python.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                        <a href="https://github.com/rawaa-mch/portfolio/blob/main/calculatrice.py" class="btn small" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="calcul.mp4" class="btn small secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-play"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+                        <!-- Projet 7 - Antivirus Python -->
+            <div class="project-card" data-category="web" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="an.png" alt="Antivirus Python" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Antivirus Python</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Python</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Tkinter</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Sécurité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Antivirus Python</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Application antivirus qui scanne et supprime automatiquement les fichiers malveillants, doublons et fichiers/dossiers vides.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                       
+                        <a href="https://github.com/rawaa-mch/python-antivirus/blob/main/README.md" class="btn small secondary" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-book"></i> Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projet 8 - Filtres Snapchat avec OpenCV -->
+            <div class="project-card" data-category="web" style="background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; position: relative;">
+                <div class="project-image" style="height: 220px; overflow: hidden; position: relative;">
+                    <img src="f.png" alt="Filtres Snapchat avec OpenCV" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+                    <div class="project-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 1.5rem; opacity: 0; transition: opacity 0.3s;">
+                        <div>
+                            <h3 style="color: white; margin-bottom: 0.5rem;">Filtres Snapchat</h3>
+                            <div class="project-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Python</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">OpenCV</span>
+                                <span style="background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem;">Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-info" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--dark);">Filtres Snapchat avec OpenCV</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem; font-size: 0.9rem;">Application de filtres faciaux en temps réel inspirée de Snapchat.</p>
+                    
+                    <div class="project-actions" style="display: flex; gap: 0.75rem;">
+                      
+                        <a href="https://github.com/rawaa-mch/snapchat-filters/blob/main/README.md" class="btn small secondary" target="_blank" rel="noopener noreferrer" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <i class="fas fa-book"></i> Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="#contact" class="btn primary" style="padding: 0.8rem 2rem; font-size: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                <i class="fas fa-paper-plane"></i> Discutons de votre projet
+            </a>
+        </div>
+    </div>
+    
+    <style>
+        /* Animation des cartes de projet */
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        
+        .project-card:hover .project-overlay {
+            opacity: 1;
+        }
+        
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .project-card:hover .project-image video {
+            transform: scale(1.05);
+        }
+        
+        /* Style des boutons de filtre */
+        .filter-btn:hover {
+            background: var(--primary) !important;
+            color: white !important;
+        }
+        
+        .filter-btn.active {
+            background: var(--primary) !important;
+            color: white !important;
+        }
+        
+       
+        /* Animation des vidéos */
+        .project-card video {
+            transition: transform 0.5s ease;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-filters {
+                gap: 0.5rem;
+            }
+            
+            .filter-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+    
+    <script>
+        // Filtrage des projets
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Mettre à jour l'état actif des boutons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Filtrer les projets
+                    projectCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Gestion de la lecture des vidéos
+            const projectVideos = document.querySelectorAll('.project-card video');
+            
+            projectVideos.forEach(video => {
+                const card = video.closest('.project-card');
+                
+                card.addEventListener('mouseenter', () => {
+                    video.play();
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    video.pause();
+                    video.currentTime = 0;
+                });
+            });
+        });
+    </script>
+</section>
+   <!-- Contact Section -->
+<!-- Contact Section - Version moderne sans formulaire -->
+<section id="contact" class="contact" style="background-color: var(--light); padding: 5rem 0; position: relative;">
+    <!-- Effet décoratif de fond -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 20% 80%, rgba(37, 99, 235, 0.05) 0%, transparent 50%); z-index: 0;"></div>
+    
+    <div class="container" style="position: relative; z-index: 1;">
+        <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 1rem; position: relative; display: inline-block;">
+                Contactez-moi
+                <span style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary));"></span>
+            </h2>
+            <p class="section-subtitle" style="color: var(--gray); font-size: 1.1rem;">Disponible pour collaborations et opportunités</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+            <!-- Carte Email -->
+            <div class="contact-method-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; text-align: center; position: relative; overflow: hidden;">
+                <div style="width: 70px; height: 70px; background: rgba(37, 99, 235, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                    <i class="fas fa-envelope" style="font-size: 1.8rem; color: var(--primary);"></i>
+                </div>
+                <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--dark);">Envoyez-moi un email</h3>
+                <p style="color: var(--gray); margin-bottom: 1.5rem;">Je réponds généralement dans les 24 heures</p>
+                <a href="mailto:rawaamchaabat@gmail.com" class="btn primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-paper-plane"></i> Écrire
+                </a>
+                <!-- Effet décoratif -->
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--secondary));"></div>
+            </div>
+            
+            <!-- Carte Téléphone -->
+            <div class="contact-method-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; text-align: center; position: relative; overflow: hidden;">
+                <div style="width: 70px; height: 70px; background: rgba(16, 185, 129, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                    <i class="fas fa-mobile-alt" style="font-size: 1.8rem; color: var(--secondary);"></i>
+                </div>
+                <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--dark);">Appelez-moi</h3>
+                <p style="color: var(--gray); margin-bottom: 1.5rem;">Disponible du lundi au vendredi, 9h-18h</p>
+                <a href="tel:+212652239385" class="btn secondary" style="display: inline-flex; align-items: center; gap: 0.5rem; border-color: var(--secondary); color: var(--secondary);">
+                    <i class="fas fa-phone"></i> +212 6 52 23 93 85
+                </a>
+                <!-- Effet décoratif -->
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--secondary), var(--primary));"></div>
+            </div>
+            
+            <!-- Carte Réseaux sociaux -->
+            <div class="contact-method-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: all 0.3s ease; text-align: center; position: relative; overflow: hidden;">
+                <div style="width: 70px; height: 70px; background: rgba(255, 42, 109, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                    <i class="fas fa-share-alt" style="font-size: 1.8rem; color: #ff2a6d;"></i>
+                </div>
+                <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--dark);">Réseaux sociaux</h3>
+                <p style="color: var(--gray); margin-bottom: 1.5rem;">Connectons-nous sur les plateformes professionnelles</p>
+                <div style="display: flex; justify-content: center; gap: 1rem;">
+                    <a href="https://www.linkedin.com/in/raw%C3%A2a-m-chaabat-4705a2371/" target="_blank" rel="noopener noreferrer" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(10, 102, 194, 0.1); color: #0a66c2; display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/rawaa-mch" target="_blank" rel="noopener noreferrer" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(0, 0, 0, 0.1); color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rawaa_mch/" target="_blank" rel="noopener noreferrer" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(225, 48, 108, 0.1); color: #e1306c; display: flex; align-items: center; justify-content: center; transition: all 0.3s;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <!-- Effet décoratif -->
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #ff2a6d, var(--secondary));"></div>
+            </div>
+        </div>
+        
+       
+    </div>
+
+    <style>
+        .contact-method-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        
+        .contact-method-card a:hover {
+            transform: translateY(-2px);
+        }
+        
+        .contact-method-card .btn:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+      
+    </style>
+</section>
+
+    <!-- Footer -->
+  <!-- Footer Redesign -->
+<footer class="footer" style="background: linear-gradient(135deg, #0f172a, #1e293b); color: white; padding: 4rem 0 2rem; position: relative; overflow: hidden;">
+    <!-- Effet de particules décoratives -->
+    <div class="footer-particles" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <div style="position: absolute; top: 20%; left: 10%; width: 2px; height: 2px; background: rgba(59, 130, 246, 0.5); border-radius: 50%; box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.5);"></div>
+        <div style="position: absolute; top: 60%; right: 15%; width: 3px; height: 3px; background: rgba(16, 185, 129, 0.5); border-radius: 50%; box-shadow: 0 0 12px 3px rgba(16, 185, 129, 0.5);"></div>
+        <div style="position: absolute; bottom: 30%; left: 25%; width: 2px; height: 2px; background: rgba(139, 92, 246, 0.5); border-radius: 50%; box-shadow: 0 0 8px 2px rgba(139, 92, 246, 0.5);"></div>
+    </div>
+
+    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1;">
+        <!-- Contenu principal du footer -->
+        <div class="footer-content" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; margin-bottom: 3rem;">
+            <!-- Colonne 1 : Logo et description -->
+            <div class="footer-brand" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <img src="logocv.png" alt="Logo Rawâa M'chaâbat" style="height: 50px; filter: brightness(0) invert(1);">
+                    <span style="font-size: 1.5rem; font-weight: 700; background: linear-gradient(90deg, #3b82f6, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Rawâa M'chaâbat</span>
+                </div>
+                <p style="color: #94a3b8; line-height: 1.6; margin: 0;">Développeuse Full Stack passionnée par la création d'expériences web modernes et performantes.</p>
+                
+                
+            </div>
+            
+            <!-- Colonne 2 : Liens rapides -->
+            <div class="footer-links">
+                <h4 style="font-size: 1.1rem; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.5rem;">
+                    Navigation
+                    <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: linear-gradient(90deg, #3b82f6, #10b981);"></span>
+                </h4>
+                <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
+                    <li><a href="#home" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        Accueil
+                    </a></li>
+                    <li><a href="#about" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        À propos
+                    </a></li>
+                    <li><a href="#skills" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        Compétences
+                    </a></li>
+                    <li><a href="#work" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        Projets
+                    </a></li>
+                    <li><a href="#certifications" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        Certifications
+                    </a></li>
+                    <li><a href="#contact" style="color: #e2e8f0; transition: all 0.3s; display: inline-block; position: relative; padding-left: 1.2rem; font-size: 0.9rem;">
+                        <i class="fas fa-chevron-right" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 0.6rem; color: #3b82f6;"></i>
+                        Contact
+                    </a></li>
+                </ul>
+            </div>
+            
+            <!-- Colonne 3 : Coordonnées -->
+            <div class="footer-contact">
+                <h4 style="font-size: 1.1rem; margin-bottom: 1.5rem; position: relative; padding-bottom: 0.5rem;">
+                    Contact
+                    <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: linear-gradient(90deg, #3b82f6, #10b981);"></span>
+                </h4>
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
+                    <li style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; background: rgba(59, 130, 246, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-envelope" style="color: #3b82f6;"></i>
+                        </div>
+                        <div>
+                            <span style="display: block; color: #94a3b8; font-size: 0.8rem;">Email</span>
+                            <a href="mailto:rawaamchaabat@gmail.com" style="color: #e2e8f0; font-size: 0.9rem; transition: all 0.3s;">rawaamchaabat@gmail.com</a>
+                        </div>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; background: rgba(16, 185, 129, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-phone" style="color: #10b981;"></i>
+                        </div>
+                        <div>
+                            <span style="display: block; color: #94a3b8; font-size: 0.8rem;">Téléphone</span>
+                            <a href="tel:+212652239385" style="color: #e2e8f0; font-size: 0.9rem; transition: all 0.3s;">+212 6 52 23 93 85</a>
+                        </div>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="width: 40px; height: 40px; background: rgba(234, 179, 8, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-map-marker-alt" style="color: #eab308;"></i>
+                        </div>
+                        <div>
+                            <span style="display: block; color: #94a3b8; font-size: 0.8rem;">Localisation</span>
+                            <span style="color: #e2e8f0; font-size: 0.9rem;">Casablanca, Maroc</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Bas du footer -->
+        <div class="footer-bottom" style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
+            <!-- Réseaux sociaux -->
+            <div class="footer-social" style="display: flex; gap: 1.5rem;">
+                <a href="https://github.com/rawaa-mch" target="_blank" rel="noopener noreferrer" aria-label="GitHub" 
+                   style="display: flex; align-items: center; justify-content: center; width: 45px; height: 45px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: white; font-size: 1.2rem; transition: all 0.3s;">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/raw%C3%A2a-m-chaabat-4705a2371/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" 
+                   style="display: flex; align-items: center; justify-content: center; width: 45px; height: 45px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: white; font-size: 1.2rem; transition: all 0.3s;">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/rawaa_mch/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" 
+                   style="display: flex; align-items: center; justify-content: center; width: 45px; height: 45px; border-radius: 50%; background: rgba(255, 255, 255, 0.05); color: white; font-size: 1.2rem; transition: all 0.3s;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            
+            <!-- Copyright et mentions légales -->
+            <div class="footer-legal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; color: #64748b; font-size: 0.8rem;">
+                <span>&copy; 2025 Rawâa M'chaâbat. Tous droits réservés.</span>
+                <span style="display: flex; align-items: center; gap: 0.5rem;">
+                    <i class="fas fa-heart" style="color: #f43f5e;"></i>
+                    Conçu avec passion
+                </span>
+            </div>
+            
+          
+        </div>
+    </div>
+
+    <style>
+        /* Animation du badge de disponibilité */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        /* Effets de survol */
+        .footer a:hover {
+            color: #3b82f6 !important;
+            transform: translateX(5px);
+        }
+        
+        .footer-social a:hover {
+            transform: translateY(-3px) scale(1.1);
+            background: rgba(255, 255, 255, 0.1) !important;
+        }
+        
+        .footer-social a:nth-child(1):hover {
+            color: #333 !important;
+            background: white !important;
+        }
+        
+        .footer-social a:nth-child(2):hover {
+            color: #0a66c2 !important;
+            background: white !important;
+        }
+        
+        .footer-social a:nth-child(3):hover {
+            color: #e1306c !important;
+            background: white !important;
+        }
+        
+        .footer-back-to-top:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .footer-links ul {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
+   
+    </script>
+</footer>
+    <!-- Assistant IA -->
+    <div class="ai-assistant">
+        <button id="assistant-btn" class="assistant-btn">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="assistant-chat">
+            <div class="chat-header">
+                <h4><i class="fas fa-robot"></i> Assistant IA</h4>
+                <button class="close-chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="assistant-message">
+                    Bonjour ! Je suis l'assistant IA de Rawâa. Posez-moi vos questions sur son portfolio.
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Posez votre question..." autocomplete="off">
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+<!-- Scroll to Top Button -->
+<button class="scroll-top" id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Textes multilingues
+    const translations = {
+        fr: {
+            home: "Accueil",
+            about: "À propos",
+            education: "Éducation",
+            skills: "Compétences",
+            certifications: "Certifications",
+            work: "Projets",
+            contact: "Contact",
+            heroTitle: "Rawâa M'chaâbat",
+            heroSubtitle: "Développeuse Full Stack",
+            // Ajoutez toutes les autres traductions nécessaires...
+        },
+        en: {
+            home: "Home",
+            about: "About",
+            education: "Education",
+            skills: "Skills",
+            certifications: "Certifications",
+            work: "Projects",
+            contact: "Contact",
+            heroTitle: "Rawâa M'chaâbat",
+            heroSubtitle: "Full Stack Developer",
+            // Ajoutez toutes les autres traductions nécessaires...
+        }
+    };
+
+    // Éléments à traduire
+    const elementsToTranslate = {
+        'nav-home': 'home',
+        'nav-about': 'about',
+        'nav-education': 'education',
+        'nav-skills': 'skills',
+        'nav-certifications': 'certifications',
+        'nav-work': 'work',
+        'nav-contact': 'contact',
+        'hero-title': 'heroTitle',
+        'hero-subtitle': 'heroSubtitle'
+        // Ajoutez les autres éléments avec leurs IDs...
+    };
+
+    // Fonction de traduction
+    function updateLanguage(lang) {
+        // Mettre à jour les boutons
+        document.querySelectorAll('.language-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.dataset.lang === lang) {
+                btn.classList.add('active');
+            }
+        });
+
+        // Mettre à jour les textes
+        Object.keys(elementsToTranslate).forEach(id => {
+            const element = document.getElementById(id);
+            if (element) {
+                element.textContent = translations[lang][elementsToTranslate[id]];
+            }
+        });
+
+        // Sauvegarder la préférence
+        localStorage.setItem('preferredLanguage', lang);
+    }
+
+    // Gestion des clics sur les boutons de langue
+    document.querySelectorAll('.language-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const lang = this.dataset.lang;
+            updateLanguage(lang);
+        });
+    });
+
+    // Initialiser avec la langue sauvegardée ou le français par défaut
+    const preferredLanguage = localStorage.getItem('preferredLanguage') || 'fr';
+    updateLanguage(preferredLanguage);
+            // Menu mobile
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                
+                // Empêcher le défilement lorsque le menu est ouvert
+                if (navLinks.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = '';
+                }
+            });
+            
+            // Fermer le menu quand on clique sur un lien
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // Changement de thème
+            const themeToggle = document.querySelector('.theme-toggle');
+            const themeIcon = themeToggle.querySelector('i');
+            
+            // Vérifier la préférence de thème au chargement
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.body.setAttribute('data-theme', savedTheme);
+            
+            if (savedTheme === 'dark') {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
+            
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = document.body.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.body.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                
+                if (newTheme === 'dark') {
+                    themeIcon.classList.replace('fa-moon', 'fa-sun');
+                } else {
+                    themeIcon.classList.replace('fa-sun', 'fa-moon');
+                }
+            });
+            
+            // Animation de la navbar au scroll
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                
+                // Mise à jour des liens actifs
+                updateActiveNavLink();
+                
+                // Mise à jour de la barre de progression
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = (winScroll / height) * 100;
+                document.getElementById("progressBar").style.width = scrolled + "%";
+            });
+            
+            // Mettre à jour le lien actif dans la navigation
+            function updateActiveNavLink() {
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('.nav-links a');
+                
+                let currentSection = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSection}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            // Animation des barres de compétences
+            function animateSkillBars() {
+                const skillBars = document.querySelectorAll('.skill-level');
+                
+                skillBars.forEach(bar => {
+                    const width = bar.getAttribute('data-width');
+                    let currentWidth = 0;
+                    const animationDuration = 1500; // 1.5 secondes
+                    const increment = (parseInt(width) / (animationDuration / 16)); // 60fps
+                    
+                    const animate = () => {
+                        currentWidth += increment;
+                        if (currentWidth < parseInt(width)) {
+                            bar.style.width = currentWidth + '%';
+                            requestAnimationFrame(animate);
+                        } else {
+                            bar.style.width = width;
+                        }
+                    };
+                    
+                    animate();
+                });
+            }
+            
+            // Observer pour animer les éléments quand ils sont visibles
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (entry.target.id === 'skills') {
+                            animateSkillBars();
+                        }
+                        
+                        entry.target.classList.add('animate');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            // Éléments à observer
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+            
+            // Smooth scroll pour les liens
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Animation des vidéos de projets
+            const projectVideos = document.querySelectorAll('.project-image video');
+            
+            projectVideos.forEach(video => {
+                video.addEventListener('mouseenter', () => {
+                    video.play();
+                });
+                
+                video.addEventListener('mouseleave', () => {
+                    video.pause();
+                    video.currentTime = 0;
+                });
+            });
+            
+            // Assistant IA
+            const assistantBtn = document.getElementById('assistant-btn');
+            const assistantChat = document.querySelector('.assistant-chat');
+            const closeChat = document.querySelector('.close-chat');
+            const sendBtn = document.getElementById('send-btn');
+            const userInput = document.getElementById('user-input');
+            const chatMessages = document.getElementById('chat-messages');
+
+            // Base de connaissances pour l'IA
+            const knowledgeBase = {
+                'salut|bonjour|coucou|hello': [
+                    "Bonjour ! Je suis l'assistant IA de Rawâa. Comment puis-je vous aider ?",
+                    "Salut ! Posez-moi vos questions sur le portfolio de Rawâa.",
+                    "Hello ! Je suis là pour répondre à vos questions."
+                ],
+                'compétence|skill|connaissance|expertise': [
+                    "Rawâa possède des compétences en :\n- Front-end : HTML, CSS, JavaScript\n- Back-end : PHP, Python\n- Bases de données : MySQL\nConsultez la section 'Compétences' pour plus de détails.",
+                    "Ses principales compétences incluent le développement web full stack avec une spécialisation front-end."
+                ],
+                'projet|réalisation|portfolio|travail': [
+                    "Projets notables :\n1. Plateforme e-commerce Nike\n2. Site de robes de mariée\n3. Portfolio artistique\nVoir la section 'Projets' pour les détails.",
+                    "Rawâa a travaillé sur plusieurs projets web. Lequel vous intéresse ?"
+                ],
+                'contact|email|téléphone|joindre': [
+                    "Vous pouvez contacter Rawâa par :\n- Email : rawaamchaabat@gmail.com\n- Téléphone : 06 52 23 93 85\n- LinkedIn : https://www.linkedin.com/in/raw%C3%A2a-m-chaabat-4705a2371/",
+                    "Utilisez le formulaire de contact ou ses coordonnées directes."
+                ],
+                'certificat|diplôme|formation|étude': [
+                    "Certifications Cisco :\n- JavaScript Essentials\n- Python\n- Cybersécurité\n- IA\nVoir la section 'Certifications'.",
+                    "Elle a obtenu plusieurs certifications techniques reconnues."
+                ],
+                'expérience|parcours|études|background': [
+                    "Parcours académique :\n- OFPPT : Développement Digital (en cours)\n- Lycée : Bac Sciences PC\nVoir la section 'Parcours'.",
+                    "Elle se forme actuellement au développement digital tout en réalisant des projets personnels."
+                ],
+                'qui es|présente|assistant|bot': [
+                    "Je suis l'assistant IA du portfolio de Rawâa M'chaâbat, développeuse web.",
+                    "Je peux vous renseigner sur ses compétences, projets et comment la contacter."
+                ],
+                'default': [
+                    "Je n'ai pas compris. Pouvez-vous reformuler ?",
+                    "Je suis spécialisé dans les questions sur le portfolio de Rawâa. Posez-moi une question précise !",
+                    "Essayer avec des mots comme 'compétences', 'projets' ou 'contact'."
+                ],
+                'merci|remerciement|thanks|chokran': [
+                    "Je vous en prie ! N'hésitez pas si vous avez d'autres questions.",
+                    "Avec plaisir ! Bonne exploration du portfolio."
+                ],
+                'cool|super|génial|impressionnant': [
+                    "Merci ! Rawâa sera ravie d'avoir votre feedback. Quel aspect vous plaît particulièrement ?",
+                    "Content que ça vous plaise ! N'hésitez pas à explorer les différentes sections."
+                ],
+                'étudiante|apprentissage|formation|école': [
+                    "Je suis actuellement en formation développement digital à l'OFPPT tout en travaillant sur des projets personnels pour perfectionner mes compétences.",
+                    "En tant qu'étudiante, je consacre mon temps entre les cours théoriques et la pratique à travers divers projets web."
+                ],
+                'certificat|diplôme|formation|étude': [
+    "Certifications Cisco :\n- JavaScript Essentials\n- Python (Parts 1 & 2)\n- Cybersécurité\n- IA\n- Sécurité des terminaux\nVoir la section 'Certifications'.",
+    "Elle a obtenu plusieurs certifications techniques reconnues par Cisco Networking Academy."
+]
+            };
+
+            // Activer/désactiver le chat
+            function toggleChat() {
+                assistantChat.classList.toggle('active');
+                if (assistantChat.classList.contains('active')) {
+                    assistantBtn.classList.add('active');
+                } else {
+                    assistantBtn.classList.remove('active');
+                }
+            }
+
+            // Ajouter un message dans le chat
+            function addMessage(text, isUser = false) {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add(isUser ? 'user-message' : 'assistant-message');
+                messageDiv.textContent = text;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Analyser la question et trouver la meilleure réponse
+            function findBestResponse(question) {
+                question = question.toLowerCase();
+                
+                for (const [keywords, responses] of Object.entries(knowledgeBase)) {
+                    const keywordArray = keywords.split('|');
+                    if (keywordArray.some(keyword => question.includes(keyword))) {
+                        return responses[Math.floor(Math.random() * responses.length)];
+                    }
+                }
+                
+                // Si aucune correspondance, retourner une réponse par défaut
+                return knowledgeBase.default[Math.floor(Math.random() * knowledgeBase.default.length)];
+            }
+
+            // Gérer l'envoi de message
+            function handleUserInput() {
+                const question = userInput.value.trim();
+                if (!question) return;
+                
+                addMessage(question, true);
+                userInput.value = '';
+                
+                // Simuler un délai de traitement
+                setTimeout(() => {
+                    const response = findBestResponse(question);
+                    addMessage(response);
+                }, 500 + Math.random() * 500);
+            }
+
+            // Événements
+            assistantBtn.addEventListener('click', toggleChat);
+            closeChat.addEventListener('click', toggleChat);
+
+            sendBtn.addEventListener('click', handleUserInput);
+
+            userInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    handleUserInput();
+                }
+            });
+
+            // Animation du bouton au chargement
+            setTimeout(() => {
+                assistantBtn.classList.add('pulse');
+                setTimeout(() => {
+                    assistantBtn.classList.remove('pulse');
+                }, 3000);
+            }, 5000);
+
+            // Initialiser l'état actif au chargement
+            updateActiveNavLink();
+
+            // Masquer le loader une fois la page chargée
+            window.addEventListener('load', function() {
+                document.querySelector('.loader').style.opacity = '0';
+                setTimeout(() => {
+                    document.querySelector('.loader').style.display = 'none';
+                }, 300);
+            });
+
+            // Gestion du changement de langue
+            document.querySelectorAll('.language-switcher button').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    // Ici vous pourriez implémenter la logique de changement de langue
+                    alert(`Fonctionnalité de traduction en ${lang} à implémenter`);
+                    
+                    // Mettre à jour l'état actif des boutons
+                    document.querySelectorAll('.language-switcher button').forEach(b => {
+                        b.classList.remove('secondary');
+                    });
+                    this.classList.add('secondary');
+                });
+            });
+        });
+         // Feedback widget
+    const emojiRatings = document.querySelectorAll('.emoji-ratings span');
+    
+    emojiRatings.forEach(emoji => {
+        emoji.addEventListener('click', function() {
+            const rating = this.getAttribute('data-rating');
+            let message;
+            
+            switch(rating) {
+                case '1': message = "Désolé que mon portfolio ne vous ait pas plu. Je vais m'améliorer !"; break;
+                case '2': message = "Merci pour votre feedback. Je prends note pour améliorer mon portfolio."; break;
+                case '3': message = "Merci ! Je suis contente que mon portfolio vous plaise."; break;
+                case '4': message = "Merci beaucoup ! Votre enthousiasme me motive énormément."; break;
+                default: message = "Merci pour votre feedback !";
+            }
+            
+            showToast(message);
+            
+            // Envoyer le feedback à un serveur (simulé ici)
+            console.log(`Feedback envoyé : ${rating}/4`);
+        });
+    });
+
+    // Fonction pour afficher les notifications toast
+    function showToast(message) {
+        const toast = document.createElement('div');
+        toast.className = 'toast-notification';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        
+        setTimeout(function() {
+            toast.classList.add('show');
+        }, 100);
+        
+        setTimeout(function() {
+            toast.classList.remove('show');
+            setTimeout(() => {
+                toast.remove();
+            }, 300);
+        }, 3000);
+    }
+
+    // Ajouter le style pour les notifications toast
+    const toastStyle = document.createElement('style');
+    toastStyle.textContent = `
+        .toast-notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .toast-notification.show {
+            opacity: 1;
+        }
+    `;
+    document.head.appendChild(toastStyle);
+     // Scroll to Top Button
+    const scrollTopBtn = document.getElementById('scrollTop');
+    
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+            scrollTopBtn.classList.add('active');
+            // Ajouter l'animation pulse quand le bouton est visible
+            setTimeout(() => {
+                scrollTopBtn.classList.add('pulse');
+            }, 1000);
+        } else {
+            scrollTopBtn.classList.remove('active');
+            scrollTopBtn.classList.remove('pulse');
+        }
+    });
+
+    scrollTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        // Retirer temporairement le pulse lors du clic
+        this.classList.remove('pulse');
+        setTimeout(() => {
+            this.classList.add('pulse');
+        }, 2000);
+    });
+    </script>
+</body>
+</html>
